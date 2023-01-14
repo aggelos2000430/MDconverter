@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Report</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Report</h1>
+</header>
+<h1 id="επικοινωνία-ανθρώπου-υπολογιστή">Επικοινωνία
+Ανθρώπου-Υπολογιστή</h1>
+<h3 id="προσωπικό-github-προφίλ-aggelos2000430">Προσωπικό Github προφίλ:
+<a href="https://github.com/aggelos2000430">aggelos2000430</a></h3>
+<h3 id="ονοματεπώνυμο-μπουικλής-άγγελος">Ονοματεπώνυμο: Μπουικλής
+Άγγελος</h3>
+<h3 id="αριθμός-μητρώου-π2018076">Αριθμός Μητρώου: Π2018076</h3>
+<h3 id="ο-οργανισμός-μου"><a href="https://github.com/ContattoContare">Ο
+οργανισμός μου</a></h3>
+<h3 id="το-asciinema-μου"><a href="https://asciinema.org/~p18boui">Το
+Asciinema μου</a></h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Εβδομάδα</th>
+<th>Παραδοτέα</th>
+<th>Links προς τις συζητήσεις του μαθήματος</th>
+<th>Αυτοαξιολόγηση</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>1.</strong> <a
+href="https://github.com/ContattoContare">Δημιουργία ομάδας</a>
+<strong>2.</strong><a
+href="https://github.com/aggelos2000430/hci/blob/2018076/projects/2018076/README.md">Φορκ
+και δημιουργία σελίδας τελικής αναφοράς</a> <strong>3.</strong> <a
+href="#%CE%B5%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%AE">Συγγραφή της
+εισαγωγής</a> <strong>4.</strong> αποστολή της εισαγωγής <a
+href="https://github.com/courses-ionio/help/discussions/1159">για
+σχολιασμό στην συζήτηση</a></td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1159">Link to
+Discussions</a></td>
+<td>’Ισως τα κριτήρια μου για επιλογή ομάδας να μην ήταν σωστά, μιας και
+η πρώτη ομάδα που επέλεξα, μετά το πέρας της 3ης εβδομάδας κατέληξε να
+είναι ανενεργή!</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Άσκηση γραμμής εντολών (arch linux install on VM)</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1516">Link to
+Discussions</a></td>
+<td>Θα έπρεπε να είμαι πιο προσεκτικός κατά την προσπάθεια μου να
+εγκαταστήσω το λογισμικό στο USB stick, έτσι δεν θα κατέστρεφα το
+καθημερινό μου περιβάλλον</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Συμμετοχικό περιεχόμενο A1</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1828">Link to
+Discussions</a></td>
+<td>Θα μπορούσα να γλιτώσω πολύ χρόνο εάν τοποθετούσα τα αρχεία και τις
+φωτογραφίες ένα-ένα μιας και θα ανακάλυπτα νωρίτερα το συντακτικό λάθος
+που υπήρχε σε ένα αρχείο, το οποίο απέτρεπε την κατασκευή της
+ιστοσελίδας</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Άσκηση γραμμής εντολών (arch linux install on HW)</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1544">Link to
+Discussions</a></td>
+<td>Δεν αντιμετώπισα καμία δυσκολία κατά την εκτέλεση του παραδοτέου,
+μιας και ήδη απο το 2ο Παραδοτέο είχα εγκαταστήσει σε φυσικό υλικό.
+Φυσικά εάν είχα χρησιμοποιήσει από την αρχή ένα γραφικό περιβάλλον θα
+είχα γλιτώσει πολύ χρόνο</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Συμμετοχικό περιεχόμενο A2</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1829">Link to
+Discussions</a></td>
+<td>Οι ικανότητες που απέκτησα με την ολοκλήρωση του 3ου Παραδοτέου, μου
+επέτρεψαν να ολοκληρώσω το συγκεκριμένο σε σχετικά μικρό χρονικό
+διάστημα</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Κατασκευή του βιβλίου Α</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1947">Link to
+Discussions</a></td>
+<td>Παραδόξως δεν αντιμετώπισα πολλές δυσκολίες κατα τη δημιουργία του
+PDF αρχείου ενώ έπειτα από μια μικρή έρευνα δημιούργησα και το φίλτρο
+Lua!</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Συμμετοχικό περιεχόμενο B1</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1970">Link to
+Discussions</a></td>
+<td>Λόγω των γνώσεων και ικανοτήτων που αποκτήθηκαν στα προηγούμενα
+παραδοτέα δεν αντιμετώπισα σχεδόν καμία δυσκολία</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Άσκηση γραμμής εντολών</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Συμμετοχικό περιεχόμενο B2</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Άσκηση γραμμής εντολών</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Κατασκευή του βιβλίου Β</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Τελική αναφορά*</td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/2003">Link to
+Discussions</a></td>
+<td>Είμαι περήφανος με τον εαυτό για το σημείο που έφτασα μέχρι τώρα και
+τις ικανότητες που απέκτησα μέσω των δραστηριοτήτων στα πλαίσια του
+μαθήματος.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="εισαγωγή"><strong>Εισαγωγή</strong></h1>
+<p>Μιας και στόχος μου είναι η ενασχόληση με την ανάπτυξη λογισμικού,
+στην επαγγελματική μου καριέρα, θεωρώ πως η διάδραση είναι μάθημα
+πρόδρομος της τεχνολογίας λογισμικού που μας φέρνει σε επαφή με
+σημαντικά εργαλεία. Η εξοικείωση για παράδειγμα με την γραμμή εντολών,
+αποτελεί μια ικανότητα κομβική για έναν επαγγελματία του χώρου της
+ανάπτυξης λογισμικού, γι’ αυτό και με ενδιαφέρει σε μεγάλο βαθμό. Οι
+άνθρωποι που ασχολούνται πολύ σοβαρά με το λογισμικό, θα πρέπει να
+φτιάξουν το δικό τους υλικό- Alan Kay. Όπότε κι εγώ με τη σειρά μου,
+στην ενασχόληση μου με το λογισμικό, θα ήθελα στο μέλλον να αναπτύξω ένα
+“μποτ συναλλαγών” το οποίο θα με διευκολύνει στην κύρια εργασία μου, το
+Foreign Exchange trading. To “μποτ” αυτό θα μπορεί να βλέπει ευκαιρίες
+για συναλλαγές που εγώ ίσως δεν παρατήρησα ή φοβήθηκα να εκτελέσω, αφού
+στον χώρο είναι πολύ σημαντική η καταπολέμηση των συναισθημάτων, ένα
+ρομπότ δίχως συναισθήματα θα μου φανεί πολύ χρήσιμο όχι για δογματική
+ακολούθηση αλλά ως συμπληρωματική βοήθεια. Αργότερα ίσως αυτό το
+λογισμικό αποκτήσει και την δική του διεπαφή, από την οποία ο χρήστης θα
+μπορεί να ρυθμίσει το μέγεθος των συναλλαγών, το μέγιστο ρίσκο αυτών και
+τέλος το ελάχιστο κέρδος που θα πρέπει να προσφέρει μια συναλαγή για να
+“αξίζει τον κόπο”. Επιπλέον μέσω τον βίντεο μας δίνεται η ευκαιρία να
+παρακολουθήσουμε κομβικές στιγμές από την εξέλιξη του ηλεκτρονικού
+υπολογιστή και φυσικά από πολύ σημαντικές προσωπικότητες που το όραμά
+τους αποτελεί πηγή έμπνευσης για εμάς τους μελλοντικούς επιστήμονες της
+Πληροφορικής. Εν κατακλείδι μέσω του μαθήματος, αποσκοπώ όχι μόνο να
+αναπτύξω ικανότητες και δεξιότητες πάνω σε βασικά εργαλεία αλλά κυριώς
+να διαμορφώσω έναν τρόπο σκέψης διαδραστικό ώστε να έρθω, ένα βήμα τη
+φορά, πιο κοντά στο μεγαλύτερο μου όραμα.</p>
+<h1 id="λειτουργικό-σύστημα"><strong>Λειτουργικό σύστημα</strong></h1>
+<h2 id="για-το-παραδοτέο02">Για το Παραδοτέο02</h2>
+<p>Εγκατέστησα επιτυχώς, σε φυσικό υλικό(USB 3.0 32gb) την ανεξάρτητη
+διανομή Linux που μας ζητήθηκε, το ArchLinux! Έπειτα από κάποια ατυχή
+συμβάντα και λάθη λόγω έλλειψης γνώσεων, πιο συγκεκριμένα, κατα την
+προσπάθεια δημιουργίας νέου partition στον δίσκο κατάφερα να διαγράψω το
+λογισμικό και όλα μου τα αρχεία απο το καθημερινό μου σύστημα. Ανάμεσα
+τους και σεμινάρια μεγάλης χρηματικής αξίας τα οποία ευτυχώς μπόρεσα να
+ανακτήσω μιας και μου είχαν σταλεί στο Νέφος. Αφού πρώτα εγκατέστησα και
+διαμόρφωσα από την αρχή το λογισμικό στο σύστημα μου. Περιληπτικά
+πρόσθεσα - ένα window manager, συγκεκριμένα το i3, - μια μηχανή
+αναζήτησης και - το nautilus file manager</p>
+<p>έπειτα από κάποιες τροποποιήσεις κυρίως αισθητικού χαρακτήρα είναι
+πλέον πλήρως λειτουργικό, ειδικά διαμορφωμένο και προσαρμοσμένο έτσι,
+ώστε να ικανοποιεί τις ανάγκες μου!</p>
+<h1 align=center>
+</b>
+<p align="center">
+<p><a href="" target="_blank"></a></p>
+<p><a href="https://asciinema.org/a/535951">Neofetch &amp;
+Journalctl</a></p>
+<p align="center">
+<p><a href="https://asciinema.org/a/535951" target="_blank"><img src="https://asciinema.org/a/531434.svg" width="70%" /></a></p>
+<h1 id="συμμετοχικό-περιεχόμενο-α1"><strong>Συμμετοχικό Περιεχόμενο
+Α1</strong></h1>
+<h2 id="για-το-παραδοτέο03">Για το Παραδοτέο03</h2>
+<p>Έκανα fork τo site και τα submodules από τον <a
+href="https://github.com/ContattoContare">οργανισμό μου</a> έπειτα
+αναζήτησα στον ιστό αποφάσισα να προσθέσω δύο εικόνες υψηλής ανάλυσης
+στο site. Φυσικά κατα την προσπάθεια προσθήκης του περιεχομένου μου ήρθα
+αντιμέτωπος με κάποια έρρορ για τα οποία δεν μπορούσα να βρω λύση.
+Είκοσι περίπου ημέρες συνεχής προσπάθειας μετά, βρήκα το θέμα αφού
+εκτελούσα το χτίσιμο της ιστοσελίδας προσθέτοντας τα αρχεία ένα-ένα. Εν
+τέλη ανακάλυψα ότι ένα αρχείο .md είχε τέσσερις αριθμούς οι οποίοι δεν
+θα έπρεπε να είναι εκεί.</p>
+<h3 id="pull-request">Pull Request</h3>
+<p><a
+href="https://github.com/ContattoContare/images/pull/15">images</a>, <a
+href="https://github.com/ContattoContare/_gallery/pull/18">_gallery</a></p>
+<h3 id="αρχεία-εικόνων">Αρχεία εικόνων:</h3>
+<ul>
+<li><a
+href="https://github.com/aggelos2000430/images/blob/47c67c08a0461775baaaece4980775f25693dee3/amiga1k.jpg">Amiga
+1000</a></li>
+<li><a
+href="https://github.com/aggelos2000430/images/blob/47c67c08a0461775baaaece4980775f25693dee3/amiga1k-thumb.jpg">Amiga
+1000 - thumbnail</a></li>
+<li><a
+href="https://github.com/aggelos2000430/images/blob/47c67c08a0461775baaaece4980775f25693dee3/ibm_screen_reader.jpg">IBM
+Screen Reader</a></li>
+<li><a
+href="https://github.com/aggelos2000430/images/blob/47c67c08a0461775baaaece4980775f25693dee3/ibm_screen_reader-thumb.jpg">IBM
+Screen Reader - thumbnail</a></li>
+</ul>
+<h3 id="αρχεία-.md">Αρχεία .md:</h3>
+<ul>
+<li><a
+href="https://github.com/aggelos2000430/_gallery/blob/803de3c7dff6d918fe353422e2caaa2ef236443a/amiga.md">Amiga
+1000</a></li>
+<li><a
+href="https://github.com/aggelos2000430/_gallery/blob/803de3c7dff6d918fe353422e2caaa2ef236443a/ibm_screen_reader.md">IBM
+Screen Reader</a></li>
+</ul>
+<h3 id="οι-προσθήκες-στο-site">Οι προσθήκες στο Site:</h3>
+<h1 align=center>
+</b>
+<p align="center">
+<a href="" target="_blank"></a>
+</p>
+<p><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/gallery/amiga/">Amiga
+1000</a></p>
+<p align="center">
+<a href="" target="_blank"><img src="https://master--tranquil-kheer-c49d30.netlify.app/images/Amiga1k.jpg" width="70%" />
+</p>
+<p><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/gallery/ibm_screen_reader/">IBM
+Screen Reader</a></p>
+<p align="center">
+<p><a href="" target="_blank"><img src="https://master--tranquil-kheer-c49d30.netlify.app/images/IBM_Screen_Reader.jpg" width="70%" /></p>
+<h1 id="warm-up-cli"><strong>Warm Up CLI</strong></h1>
+<h2 id="για-το-παραδοτέο04">Για το Παραδοτέο04</h2>
+<p>δοκίμασα μερικές απλές εντολές από το warm-up cli</p>
+<h1 align=center>
+</b>
+<p align="center">
+<a href="" target="_blank"></a>
+</p>
+<p><a href="https://asciinema.org/a/536633">Weather NYC</a></p>
+<p align="center">
+<p><a href="https://asciinema.org/a/536633" target="_blank"><img src="https://asciinema.org/a/536633.svg" width="70%" /></p>
+<p><a href="https://asciinema.org/a/536642">Dancing Parρot</a></p>
+<p align="center">
+<p><a href="https://asciinema.org/a/536642" target="_blank"><img src="https://asciinema.org/a/536642.svg" width="70%" /></p>
+<p><a href="https://asciinema.org/a/536640">Rate.sx</a></p>
+<p align="center">
+<p><a href="https://asciinema.org/a/536640" target="_blank"><img src="https://asciinema.org/a/536640.svg" width="70%" ></p>
+<h1 id="συμμετοχικό-περιεχόμενο-α2"><strong>Συμμετοχικό Περιεχόμενο
+Α2</strong></h1>
+<h2 id="για-το-παραδοτέο05">Για το Παραδοτέο05</h2>
+<p>Σε αντίθεση με το Συμμετοχικό περιεχόμενο Α1 και με τις γνώσεις που
+αποκτήθηκαν από αυτό, το Α2 επιτεύχθηκε με ομαλούς ρυθμούς χωρίς
+ιδιαίτερη δυσκολία. Πιο αναλυτικά δημιούργησα ένα χρονολόγιο για με τα
+σημαντικότερα συστήματα της Commodore, όπως επίσης και δύο διαφάνειες, η
+μια με θεματική τις συσκευές διάδρασης με θέση αριστερά από το
+πληκτρολόγιο και .</p>
+<h3 id="αρχεία-.md-1">Αρχεία .md:</h3>
+<ul>
+<li><a
+href="https://github.com/aggelos2000430/site/blob/master/_timeline/Commodore.md">Χρονολόγιο</a></li>
+<li><a
+href="https://github.com/aggelos2000430/site/blob/master/_slides/apple.md">Οι
+πρώτοι προσωπικοί υπολογιστές της Apple</a></li>
+<li><a
+href="https://github.com/aggelos2000430/site/blob/master/_slides/left_keyboard.md">Συσκευές
+διάδρασης αριστερά του πληκτρολογίου</a></li>
+</ul>
+<h3 id="οι-προσθήκες-στο-site-1">Οι προσθήκες στο Site:</h3>
+<ul>
+<li><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/timeline/commodore/">Χρονολόγιο</a></li>
+<li><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/slides/apple/">Οι
+πρώτοι ηλεκτρονικοί υπολογιστές της Apple</a> και<br />
+</li>
+<li><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/slides/left_keyboard/">Συσκευές
+διάδρασης αριστερά του πληκτρολογίου</a></li>
+</ul>
+<h1 id="η-κατασκευή-του-βιβλίου"><strong>Η Κατασκευή του
+Βιβλίου</strong></h1>
+<h2 id="για-το-παραδοτέο06">Για το Παραδοτέο06</h2>
+<p>Αποφάσισα να προσθέσω το περιεχόμενο στο δεύτερο κεφάλαιο(Ορισμός)
+πιο συγκεκριμένα στο 2.1 Η αξία της κατασκευής συστημάτων διάδρασης,
+μιας και είναι ένα κεφάλαιο το οποίο με ενδιαφέρει ιδιαίτερα αφού
+επιθυμώ στο μέλλον να κατασκευάσω μια συσκευή διάδρασης που ακολουθείται
+φυσικά από το ανάλογο λογισμικό. Χρησιμοποίησα ένα Yaml Check το για να
+εντοπίσω ένα λάθος στο αρχείο .md, με το περιεχόμενο μου, το οποίο
+εμπόδιζε τις σημειώσεις μου από το να ενταχθούν στο PDF αρχείο του
+βιβλίου. Τροποποίησα επίσης το δικό μου φίλτρο lua όπως ακριβώς
+επιθυμούσα ώστε το περιεχόμενο μου να είναι σε italics μορφή, το
+ονοματεπώνυμο και ο Αριθμός μητρώου μου κάτω από το περιεχόμενο που
+πρόσθεσα χωρισμένο με γραμμες.</p>
+<ul>
+<li><a
+href="https://github.com/aggelos2000430/kallipos/blob/master/mybook/book1.pdf">Το
+βιβλίο σε PDF</a></li>
+<li><a
+href="https://github.com/aggelos2000430/kallipos/blob/master/mylua.lua">Το
+φίλτρο lua μου</a></li>
+<li><a
+href="https://github.com/aggelos2000430/kallipos/blob/master/myfile/interaction-devices.md">Το
+περιεχόμενο μου .md</a></li>
+<li><a
+href="https://github.com/aggelos2000430/kallipos/blob/master/mypictures/PIbookScreenshot.PNG">Το
+Screenshot!</a></li>
+</ul>
+<p><img
+src="https://github.com/aggelos2000430/kallipos/blob/master/mypictures/PIbookScreenshot.PNG" /></p>
+<h1 id="συμμετοχικό-περιεχόμενο-β1"><strong>Συμμετοχικό Περιεχόμενο
+Β1</strong></h1>
+<h2 id="για-το-παραδοτέο07">Για το Παραδοτέο07</h2>
+<p>Αποφάσισα να κάνω μια βαθύτερη ερεύνα πάνω στον IBM Screen Reader τον
+οποίο είχα προσθέσει με το συμμετοχικό περιεχόμενο Α1.</p>
+<h3 id="αρχεία-.md-2">Αρχεία .md:</h3>
+<ul>
+<li><p><a
+href="https://github.com/aggelos2000430/site/blob/master/_case-study/screen-reader.md">_case-study</a></p></li>
+<li><p><a
+href="https://github.com/aggelos2000430/site/blob/master/_includes/cs-screen-reader.md">_includes</a></p></li>
+</ul>
+<h3 id="η-προσθήκη-στο-site">Η προσθήκη στο Site:</h3>
+<ul>
+<li><a
+href="https://master--tranquil-kheer-c49d30.netlify.app/case-study/screen-reader/">Μελέτη
+περίπτωσης</a></li>
+</ul>
+<h3 id="πηγές">Πηγές:</h3>
+<ul>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/191028.191039">Πηγή
+1</a></li>
+<li><a href="https://www.afb.org/aw/5/2/14760">Πηγή 2</a></li>
+</ul>
+#
+<h1 align="center">
+Βίντεο Κουίζ
+</h1>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>Τίτλος</th>
+<th>Ολοκληρώθηκαν</th>
+<th>Εμπρόθεσμα</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Digibarn: Xerox Professinal Workstation Xerox Star 8010 (1981)</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>UNIX: Making Computers Easier To Use – AT&amp;T Archives film from
+1982, Bell Laboratories</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Xerox Star User Interface (1982) 1 of 2</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Alto System Project: Larry Tesler demonstration of Gypsy</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Alan Kay: Doing with Images Makes Symbols (Full Version)</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>FIXING ELECTRONIC LITERATURE - Ted at the Googleplex, 2007</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Oral History of Douglas Engelbart</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Engelbart’s Unfinished Revolution - 1998 - Session IV</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Dynabook: The Complete Story</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Alan Kay at Media Lab 30</td>
+<td>:heavy_check_mark:</td>
+<td>:heavy_check_mark:</td>
+</tr>
+</tbody>
+</table>
+<h1 id="συμπεράσματα"><strong>Συμπεράσματα</strong></h1>
+<h3 id="τελική-αναφορά---παραδοτέο-12">Τελική Αναφορά - Παραδοτέο
+12</h3>
+<p>Οφείλω να ομολογήσω πως είχα εξασκήσει και στο παρελθόν την
+πειθαρχεία και την υπομονή μου, γεγονός που με οδήγησε στο να ολοκληρώσω
+τα 7 πρώτα Παραδοτέα και τα 10 βίντεο κουίζ, παρόλες τις αρκετές
+δυσκολίες που αντιμετώπισα, αγνόησα την “φωνή” στο πίσω μέρος του μυαλού
+μου η οποία μου έλεγε παράτησέ τα. Φτάνοντας στο τέλος, θεωρώ πως ξόδεψα
+αρκετό χρόνο στο συγκεκριμένο μάθημα αλλα αναλογεί στις γνώσεις,
+ικανότητες και τρόπο σκέψης που απέκτησα για τις οπίες είμαι περίφανως
+που απέκτησα διότι θα με βοηθήσουν να εκπληρώσω τον αρχικό μου στόχο που
+περιέγραψα στην εισαγωγή.</p>
+<h1 id="ομαδικές-συζητήσεις"><strong>Ομαδικές συζητήσεις</strong></h1>
+<p>-<a
+href="https://github.com/courses-ionio/help/discussions/1431#discussion-4540677">#1431</a>
+-<a
+href="https://github.com/courses-ionio/help/discussions/1682#discussioncomment-4187399">#1682</a>
+-<a
+href="https://github.com/courses-ionio/help/discussions/1705#discussioncomment-4441679">#1705</a>
+-<a
+href="https://github.com/courses-ionio/help/discussions/1927#discussioncomment-4371487">#1927</a>
+-<a
+href="https://github.com/courses-ionio/help/discussions/2084#discussioncomment-4683746">#2084</a></p>
+</body>
+</html>
